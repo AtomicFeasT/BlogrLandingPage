@@ -1,0 +1,49 @@
+<header class="header">
+	<img src="../../public/assets/logo.svg" alt="" class="logo">
+	<nav class="navbar">
+		<div class="hamburger-menu">
+			<div class="hamburger-menu"></div>
+		</div>
+	
+	</nav>
+</header>
+
+<style>
+	.header {
+		width: 100%;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+		background-image: linear-gradient(#ff816c, #ff585f); 
+		padding: 1rem;
+	}
+
+	.hamburger-menu,
+	.hamburger-menu::before,
+	.hamburger-menu::after {
+		width: 2.75rem;
+		height: 3px;
+		background-color: white;
+		border-radius: .5rem;
+	}
+
+	.hamburger-menu::after,
+	.hamburger-menu::before {
+		content: '';
+		position: absolute;
+	}
+
+	.hamburger-menu {
+		position: relative;
+	}
+
+	.hamburger-menu::after {
+		top: 10px;
+	}
+
+	.hamburger-menu::before {
+		bottom: 10px;
+	}
+</style>
