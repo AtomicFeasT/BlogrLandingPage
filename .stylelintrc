@@ -1,7 +1,7 @@
 {
-  "extends:" ['stylelint-config-standard', 'stylelint-config-prettier', 'stylelint-config-standard-scss'],
-  "plugins:" ['stylelint-order'],
-  "rules:" {
+  extends: ['stylelint-config-standard', 'stylelint-config-prettier', 'stylelint-config-standard-scss'],
+  plugins: ['stylelint-order'],
+  rules: {
     'scss/double-slash-comment-empty-line-before': null,
     'scss/operator-no-unspaced': null,
     'scss/no-global-function-names': null,
