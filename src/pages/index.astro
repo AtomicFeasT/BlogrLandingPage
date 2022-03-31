@@ -9,7 +9,7 @@ import MobileNav from '../components/MobileNav.astro'
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
-
+let blogrFavicon = "../../public/assets/favicon-32x32.png"
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
@@ -20,6 +20,7 @@ import MobileNav from '../components/MobileNav.astro'
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Blogr - Home</title>
+	<link rel="icon" type="image/x-icon" href={blogrFavicon}>
 </head>
 <body>
 
