@@ -3,6 +3,7 @@ import MobileNav from '../components/MobileNav.astro'
 ---
 <header class="header">
     <MobileNav></MobileNav>
+    <!-- <img class="bg-pattern" src="../../public/assets/bg-pattern-intro-mobile.svg" alt=""> -->
     <div class="title-paragraph">
         <h1 class="header-title">A modern publishing platform</h1>
         <p class="header-paragraph">Grow your audience and build your online brand</p>
@@ -19,15 +20,34 @@ import MobileNav from '../components/MobileNav.astro'
 		width: 100%;
 		height: auto;
 
-		background-image: linear-gradient(#ff816c, #ff585f); 
+		background-image: linear-gradient(#ff816c, #fc4f5c); 
 		padding: 1.5rem;
         padding-bottom: 8rem;
         border-bottom-left-radius: 7rem;
+
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
 	}
+
+    .header::before {
+        width: 80rem;
+        height: 80rem;
+        background-image: url('../../public/assets/bg-pattern-intro-mobile.svg');
+        background-repeat: no-repeat;
+       
+        content: '';
+        position: absolute;
+        top: 65%;
+        left: 80%;
+        transform: translate(-50%, -50%) rotate(5deg);
+        z-index: -1;
+    }
 
     .title-paragraph {
         display: flex;
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
@@ -37,6 +57,7 @@ import MobileNav from '../components/MobileNav.astro'
     }
 
     .header-title {
+        width: 18ch;
         padding-top: 4rem;
     }
 
