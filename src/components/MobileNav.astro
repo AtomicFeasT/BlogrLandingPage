@@ -1,25 +1,20 @@
-<header class="header">
-	<img src="../../public/assets/logo.svg" alt="" class="logo">
-	<nav class="navbar">
-		<div class="hamburger-menu">
-			<div class="hamburger-menu"></div>
-		</div>
+<nav class="navbar">
+<img src="../../public/assets/logo.svg" alt="" class="logo">
+	<div class="hamburger-menu">
+		<div class="hamburger-menu"></div>
+	</div>
 	
-	</nav>
-</header>
+</nav>
 
 <style>
-	.header {
-		width: 100%;
-
+	.navbar {
 		display: flex;
-		align-items: center;
+		flex-direction: row;
 		justify-content: space-between;
-		
-		background-image: linear-gradient(#ff816c, #ff585f); 
-		padding: 1rem;
-	}
+		align-items: center;
 
+		margin-top: 2rem;
+	}
 	.hamburger-menu,
 	.hamburger-menu::before,
 	.hamburger-menu::after {
