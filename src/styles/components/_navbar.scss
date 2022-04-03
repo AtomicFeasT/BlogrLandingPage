@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
+
+.hamburger-menu,
+.hamburger-menu::before,
+.hamburger-menu::after {
+  width: 2.75rem;
+  height: 3px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.hamburger-menu::after,
+.hamburger-menu::before {
+  content: "";
+  position: absolute;
+}
+
+.hamburger-menu {
+  position: relative;
+}
+
+.hamburger-menu::after {
+  top: 10px;
+}
+
+.hamburger-menu::before {
+  bottom: 10px;
+}
