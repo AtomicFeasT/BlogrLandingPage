@@ -1,3 +1,21 @@
 :root {
-  --ff-: ;
+  --ff-roboto: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-roboto);
+}
+
+li,
+a,
+p,
+small {
+  font-family: var(--ff-roboto);
+}
+
+input,
+button {
+  font-family: var(--ff-roboto);
 }

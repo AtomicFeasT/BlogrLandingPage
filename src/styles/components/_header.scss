@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  background-image: linear-gradient(hsl(9, 100%, 71%), hsl(355, 97%, 65%));
+  padding: 1rem;
+  padding-bottom: 8rem;
+  border-bottom-left-radius: 7rem;
+
+  position: relative;
+  z-index: 1;
+}
+
+.header::before {
+  content: "";
+  width: 80rem;
+  height: 80rem;
+  background-image: url("/public/assets/bg-pattern-intro-mobile.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 65%;
+  left: 80%;
+  z-index: -1;
+  transform: translate(-50%, -50%) rotate(5deg);
+}
+
+.title-paragraph {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-title,
+.header-paragraph {
+  color: var(--clr-text-90);
+}
+
+.header-title {
+  font-weight: normal;
+  width: 18ch;
+  padding-top: 4rem;
+}
+
+.header-paragraph {
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 2rem 0;
+}
+
+.start-for-free,
+.learn-more {
+  font-size: 1.15rem;
+  font-weight: normal;
+  padding: 0.5rem 1.15rem;
+
+  border: 0;
+  border-radius: 2rem;
+}
+
+.start-for-free {
+  color: var(--clr-secondary-orange-400);
+}
+
+.learn-more {
+  color: var(--clr-text-90);
+  background-color: transparent;
+  border: 1px solid var(--clr-text-90);
+}

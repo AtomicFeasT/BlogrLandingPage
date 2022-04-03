@@ -1,5 +1,3 @@
 @use "./base/index" as *;
-
-p {
-  display: inline;
-}
+@use "./components/index" as *;
+@use "./pages/index" as *;
