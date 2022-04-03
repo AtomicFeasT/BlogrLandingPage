@@ -1,7 +1,6 @@
 // @use "../base/index" as *;
 :root {
   --accent-title: hsl(203, 48%, 26%);
-  --title-color: ;
   --paragraph-color: hsl(197, 3%, 37%);
 }
 
@@ -9,21 +8,24 @@
   text-align: center;
 }
 
-.fi-title-paragraph {
+.fi-title-paragraph,
+.th-title-paragraph {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 2rem;
 }
 
-.fi-section-title {
+.fi-section-title,
+.th-section-title {
   color: var(--accent-title);
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
 
-.fi-section-illustration {
-  margin-inline: auto;
+.fi-section-paragraph,
+.th-section-paragraph {
+  color: var(--paragraph-color);
 }
 
 .lmt-width {
@@ -34,8 +36,9 @@
   margin-top: 6rem;
 }
 
-.fi-section-paragraph {
-  color: var(--paragraph-color);
+.fi-section-illustration,
+.th-section-illustration {
+  margin-inline: auto;
 }
 
 .padding-bot-large {
@@ -88,4 +91,8 @@
   font-size: 2rem;
   padding-top: 16.5rem;
   padding-bottom: 1.5rem;
+}
+
+.th-section-illustration {
+  margin-top: 4rem;
 }
