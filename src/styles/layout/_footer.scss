@@ -1,3 +1,29 @@
 .footer {
-  backgroud-color: hsl(233, 10%, 17%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: hsl(233, 10%, 17%);
+  padding: 2rem 0 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.footer-logo {
+  margin: 2.5rem 0;
+}
+
+.footer-list {
+  text-align: center;
+  list-style: none;
+}
+
+.list-title {
+  font-weight: 500;
+  color: var(--clr-text-90);
+  margin: 2rem 0 1rem;
+}
+
+.list-link {
+  text-decoration: none;
+  color: var(--clr-text-400);
 }
