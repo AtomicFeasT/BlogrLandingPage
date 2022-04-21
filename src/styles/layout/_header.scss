@@ -25,6 +25,12 @@
   transform: translate(-50%, -50%) rotate(5deg);
 }
 
+.header-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .title-paragraph {
   text-align: center;
   display: flex;

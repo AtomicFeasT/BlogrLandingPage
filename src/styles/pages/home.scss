@@ -1,4 +1,5 @@
-// @use "../base/index" as *;
+@use "../base/index" as *;
+
 :root {
   --accent-title: hsl(203, 48%, 26%);
   --paragraph-color: hsl(197, 3%, 37%);
@@ -6,6 +7,10 @@
 
 .main {
   text-align: center;
+  width: 100%;
+  max-width: 1024px;
+
+  margin: 0 auto;
 }
 
 .fi-title-paragraph,
