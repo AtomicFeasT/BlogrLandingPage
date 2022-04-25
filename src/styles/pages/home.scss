@@ -8,32 +8,19 @@
 .main {
   text-align: center;
   width: 100%;
-  max-width: 1024px;
-
+  overflow: hidden;
   margin: 0 auto;
 }
 
-.first-section-wrapper {
+.first-section {
   @media (min-width: 1024px) {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
-
-.title-paragraph-wrapper {
-  @media (min-width: 1024px) {
-    text-align: left;
-  }
-}
-
-.fi-title-paragraph,
-.th-title-paragraph {
-  display: flex;
-  flex-direction: column;
-  padding: 0 2rem;
-
-  @media (max-width: 1023px) {
-    align-items: center;
+    display: grid;
+    grid-template-areas:
+      "title title title"
+      "section-a  . ."
+      "section-b . .";
+    margin-top: 5rem;
+    position: relative;
   }
 }
 
@@ -44,28 +31,78 @@
   margin-bottom: 1.5rem;
 }
 
+.main-title {
+  margin-top: 3rem;
+
+  @media (min-width: 1024px) {
+    font-size: 2rem;
+    grid-area: title;
+  }
+}
+
+.fi-section-illustration {
+  margin-inline: auto;
+  filter: drop-shadow(30px 10px 4px hsl(0 0% 0% / 40%));
+
+  @media (min-width: 1024px) {
+    content: "";
+    position: absolute;
+    left: 55%;
+  }
+}
+
+.title-paragraph-wrapper {
+  @media (min-width: 1024px) {
+    text-align: left;
+  }
+}
+
+.fi-title-paragraph {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1024px) {
+    width: 80.5ch;
+    padding-left: 8rem;
+  }
+
+  @media (max-width: 1023px) {
+    align-items: center;
+    padding: 0 2rem;
+  }
+}
+
+.section-a {
+  grid-area: section-a;
+}
+
+.section-b {
+  grid-area: section-b;
+}
+
 .fi-section-paragraph,
 .th-section-paragraph {
   color: var(--paragraph-color);
+}
+
+.th-section-illustration {
+  margin-inline: auto;
+}
+
+.th-title-paragraph {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1023px) {
+    align-items: center;
+    padding: 0 2rem;
+  }
 }
 
 .lmt-width {
   @media (max-width: 1023px) {
     width: 18ch;
   }
-}
-
-.main-title {
-  margin-top: 6rem;
-
-  @media (min-width: 1024px) {
-    font-size: 2rem;
-  }
-}
-
-.fi-section-illustration,
-.th-section-illustration {
-  margin-inline: auto;
 }
 
 .padding-bot-large {
@@ -118,8 +155,4 @@
   font-size: 2rem;
   padding-top: 16.5rem;
   padding-bottom: 1.5rem;
-}
-
-.th-section-illustration {
-  margin-top: 4rem;
 }
