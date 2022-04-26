@@ -17,3 +17,6 @@ Improve and exhibit my capacity in precisely reproducing designs without figma t
    
  <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
 </ul>
+
+<h4>Reference</h4>
+<p>All credits go to <a target="_blank" href="https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP">FrontEndMentor | Blogr Landing Page</a> for providing me with all the necessary files and images to develop the page!</p>
