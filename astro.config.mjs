@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     root: "/",
     publicDir: 'public',
-    
+    site: 'https://atomicfeast.github.io/blogr-landing-page/'
 });
