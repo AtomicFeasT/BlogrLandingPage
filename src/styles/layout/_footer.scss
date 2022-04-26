@@ -6,6 +6,11 @@
   background-color: hsl(233, 10%, 17%);
   padding: 2rem 0 5rem;
   border-top-right-radius: 5rem;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .footer-logo {
