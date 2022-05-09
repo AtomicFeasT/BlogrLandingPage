@@ -1,33 +1,26 @@
-name: Deploy Astro to GitHub Pages
+#!/usr/bin/env sh
 
-on:
-  push:
-    branches:
-      - main
+# abort on errors
+set -e
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# build
+npm run build
 
-    strategy:
-      matrix:
-        node-version: [16.x]
+# navigate into the build output directory
+cd dist
 
-    steps:
-      - name: Get files
-        uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install packages
-        run: yarn
-      - name: Build project
-        run: yarn build
-      - name: Add .nojekyll file
-        run: touch ./dist/.nojekyll
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.2.3
-        with:
-          branch: gh-pages
-          folder: dist
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
+
+git init
+git checkout -b main
+git add -A
+git commit -m 'deploy'
+
+# if you are deploying to https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+
+# if you are deploying to https://<USERNAME>.github.io/<REPO>
+git push -f git@github.com:AtomicFeasT/blogr-landing-page.git main:gh-pages
+
+cd -
