@@ -1,6 +1,6 @@
 {
-  "name": "my-vue-app",
-  "private": true,
+  "name": "blogr-landing-page",
+  "private": false,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
@@ -20,18 +19,13 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "sass": "^1.51.0",
-    "stylelint": "^14.8.2",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard-scss": "^3.0.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.2.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.7",
     "yarn": "^1.22.18"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   }
 }
