@@ -1,8 +1,7 @@
 export function Footer() {
     return (
         <footer className="footer">
-        <img src="../../assets/logo.svg" alt="" className="footer-logo"></img>
-        <div className="footer-wrapper"> 
+        <img src="/logo.svg" alt="" className="footer-logo"></img>
             <ul className="footer-list">
                 <p className="list-title">Product</p>
                 <li className="list-item"><a href="#overview" className="list-link">Overview</a></li>
@@ -23,8 +22,7 @@ export function Footer() {
                 <li className="list-item"><a href="#contact" className="list-link">Contact</a></li>
                 <li className="list-item"><a href="#newsletter" className="list-link">Newsletter</a></li>
                 <li className="list-item"><a href="#linkedin" className="list-link">Linkedin</a></li>
-            </ul>
-         </div>  
+            </ul> 
     </footer>
     )
 }
