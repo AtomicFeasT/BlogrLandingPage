@@ -12,7 +12,7 @@ export default function App() {
 		<section className="first-section">
 				<h1 className="fi-section-title main-title">Designed for the future</h1>
 
-  				<img className="fi-section-illustration" src="/illustration-editor-desktop.svg" alt="Illustration Editor"></img>
+  				<img className="fi-section-illustration" src="/assets/illustration-editor-desktop.svg" alt="Illustration Editor"></img>
 
 				<div className="fi-title-paragraph-wrapper">
 					<div className="fi-title-paragraph section-a">
@@ -27,15 +27,15 @@ export default function App() {
 		
 		</section>
 		
-		<img className="se-section-illustration" src="/illustration-phones.svg" alt=""></img>
+		<img className="se-section-illustration" src="/assets/illustration-phones.svg" alt=""></img>
 			
 		<section className="second-section">
 			<div className="se-section-illustration-desktop-wrapper">
-				<img className="se-section-illustration-desktop" src="/illustration-phones.svg" alt=""></img>
+				<img className="se-section-illustration-desktop" src="/assets/illustration-phones.svg" alt=""></img>
 			</div>
 
 			<div className="se-title-paragraph">
-				<img className="se-section-illustration-pattern" src="/bg-pattern-circles.svg" alt=""></img>
+				<img className="se-section-illustration-pattern" src="/assets/bg-pattern-circles.svg" alt=""></img>
 				<h1 className="se-section-title">State of the Art Infrastructure</h1>
 				<p className="se-section-paragraph">With reliability and speed in mind, worldwide data center provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
 			</div>
@@ -44,7 +44,7 @@ export default function App() {
 
 		<section className="third-section">
 
-			<img className="th-section-illustration"src="/illustration-laptop-desktop.svg" alt=""></img>
+			<img className="th-section-illustration"src="/assets/illustration-laptop-desktop.svg" alt=""></img>
 
 			<div className="th-title-paragraph-wrapper">
 				<div className="th-title-paragraph th-section-a">
