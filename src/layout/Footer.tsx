@@ -1,7 +1,7 @@
 export function Footer() {
     return (
         <footer className="footer">
-        <img src="/blogr-landing-page/assets/logo.svg" alt="" className="footer-logo"></img>
+        <img src="/BlogrLandingPage/assets/logo.svg" alt="" className="footer-logo"></img>
             <ul className="footer-list">
                 <p className="list-title">Product</p>
                 <li className="list-item"><a href="#overview" className="list-link">Overview</a></li>

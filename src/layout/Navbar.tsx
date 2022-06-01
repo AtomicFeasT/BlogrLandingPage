@@ -1,7 +1,7 @@
 export function Navbar() {
     return (
         <nav className="navbar">
-            <img src="/blogr-landing-page/assets/logo.svg" alt="" className="logo"></img>
+            <img src="/BlogrLandingPage/assets/logo.svg" alt="" className="logo"></img>
         
             <div className="desktop-nav">
 
