@@ -1,7 +1,7 @@
 <h1 id="Blogr" align="center">📙 <a href="https://atomicfeast.github.io/BlogrLandingPage/">Blogr Landing Page</a></h1>
 📙 A simple and responsive landing page.
 
-<h2>Purpose</h2>
+<h1>Purpose</h1>
 Improve and exhibit my capacity in precisely reproducing designs without figma therefore, using only images.
 
 <h2>Technologies And Packages</h2>
@@ -19,10 +19,10 @@ Improve and exhibit my capacity in precisely reproducing designs without figma t
  <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
 </ul>
 
-<h2>Reference</h2>
+<h3>Reference</h3>
 <p>All credits go to <a target="_blank" href="https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP">FrontEndMentor | Blogr Landing Page</a> for providing me with all the necessary files and images to develop the page!</p>
 
-<h2>License</h2>
+<h4>License</h4>
 
 This project is under the Apache license. See the [LICENSE](LICENSE) file for details.
 
