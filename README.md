@@ -1,4 +1,4 @@
-<h1 align="center">📙 Blogr Landing Page</h1>
+<h1 id="Blogr" align="center">📙 <a href="https://atomicfeast.github.io/BlogrLandingPage/">Blogr Landing Page</a></h1>
 📙 A simple and responsive landing page.
 
 <h2>Purpose</h2>
@@ -9,7 +9,7 @@ Improve and exhibit my capacity in precisely reproducing designs without figma t
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img align="center" alt="HTML5" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="center" alt="CSS3" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
    <a target="_blank" href="https://sass-lang.com/"><img align="center" alt="SASS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"></a>
-  <a target="_blank" href="https://pt-br.reactjs.org/"><img align="center" alt="ReactJS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
+   <a target="_blank" href="https://pt-br.reactjs.org/"><img align="center" alt="ReactJS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
 </div>
 <br>
 <ul>
@@ -18,5 +18,11 @@ Improve and exhibit my capacity in precisely reproducing designs without figma t
  <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
 </ul>
 
-<h4>Reference</h4>
+<h3>Reference</h3>
 <p>All credits go to <a target="_blank" href="https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP">FrontEndMentor | Blogr Landing Page</a> for providing me with all the necessary files and images to develop the page!</p>
+
+<h3>License</h3>
+
+This project is under the Apache license. See the [LICENSE](LICENSE) file for details.
+
+[⬆ Back To Top](#Blogr)<br>
