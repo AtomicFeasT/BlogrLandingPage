@@ -4,7 +4,7 @@
 <h2>Purpose</h2>
 Improve and exhibit my capacity in precisely reproducing designs without figma therefore, using only images.
 
-<h3>Technologies And Packages</h3>
+<h2>Technologies And Packages</h2>
 <div style="display: inline"> 
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img align="center" alt="HTML5" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="center" alt="CSS3" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
@@ -19,10 +19,10 @@ Improve and exhibit my capacity in precisely reproducing designs without figma t
  <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
 </ul>
 
-<h3>Reference</h3>
+<h2>Reference</h2>
 <p>All credits go to <a target="_blank" href="https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP">FrontEndMentor | Blogr Landing Page</a> for providing me with all the necessary files and images to develop the page!</p>
 
-<h3>License</h3>
+<h2>License</h2>
 
 This project is under the Apache license. See the [LICENSE](LICENSE) file for details.
 
